@@ -12,7 +12,7 @@
   left: 0;
   z-index: 1000;
   border-bottom: 1px solid #9baab2;
-  background-color: $white;
+  background-color: $black;
   @include box-shadow((0 1px 3px rgba($black, 0.12), inset 0 -4px 4px -4px rgba($black, 0.3)));
   .docked & {
     position: fixed;
@@ -30,7 +30,7 @@
     }
   }
   #site-logo {
-    width: 122px;
+    width: 500px;
   }
   .icon-home {
     font-size: 20px;
@@ -43,7 +43,7 @@
   .current-username {
     float: left;
     a {
-      color: $black;
+      color: $white;
       font-size: 14px;
       line-height: 40px;
     }
@@ -140,7 +140,7 @@
 }
 
 #main-outlet {
-  padding-top: 75px;
+  padding-top: 85px;
 }
 
 // Dropdowns
