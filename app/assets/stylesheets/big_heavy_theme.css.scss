@@ -1,0 +1,16 @@
+@import "foundation/variables";
+@import "foundation/mixins";
+
+.d-header {
+  background-color: $black;
+  #site-logo {
+    width: 500px;
+  }
+  .current-username a {
+    color: $white;
+  }
+}
+
+#main-outlet {
+  padding-top: 95px;
+}
